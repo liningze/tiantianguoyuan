@@ -1,0 +1,460 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+/*头部*/
+.head {
+  height: 30px;
+  width: 100%;
+  background: #ccc; }
+
+.headZong {
+  width: 90%;
+  height: 30px;
+  margin: 0 auto; }
+
+/*选择城市*/
+.bigleft {
+  width: 81px;
+  height: 30px; }
+
+.left {
+  cursor: pointer; }
+
+.bigleft .car {
+  height: 14px;
+  width: 14px;
+  margin-top: 7px; }
+
+.middle {
+  width: 93px;
+  height: 30px; }
+
+.middle p {
+  text-align: center;
+  line-height: 30px; }
+
+.end {
+  width: 36px;
+  height: 30px; }
+
+.end a {
+  text-align: center;
+  line-height: 30px;
+  color: #64a131;
+  text-decoration: none; }
+
+.headLeft div {
+  font-size: 12px;
+  float: left;
+  margin-left: 7px; }
+
+.phone {
+  width: 14px;
+  height: 14px; }
+
+.kefu {
+  width: 14px;
+  height: 14px; }
+
+/*头部右边*/
+.headRight {
+  float: right;
+  font-size: 12px;
+  width: 500px;
+  height: 30px; }
+
+.headRight span {
+  line-height: 30px;
+  margin-left: 10px;
+  cursor: pointer; }
+
+.headRight a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer; }
+
+/*选择城市隐藏*/
+.gunlun {
+  width: 260px;
+  height: 280px;
+  border: 1px solid #ccc;
+  background: #fff;
+  position: absolute;
+  overflow: scroll;
+  top: 30px;
+  left: 75px;
+  z-index: 99; }
+
+.neirong {
+  list-style: none;
+  width: 280px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 17px; }
+
+.neirong p {
+  color: #ccc; }
+
+.neirong a {
+  color: #000;
+  text-decoration: none; }
+
+.neirong a:hover {
+  color: #64a131; }
+
+.gunlun {
+  display: none; }
+
+/*首页*/
+.headTop {
+  width: 90%;
+  height: 121px;
+  margin: 0 auto; }
+
+.img {
+  margin: 20px auto; }
+
+.textLogo {
+  width: 485px;
+  height: 80px;
+  margin-left: 350px;
+  margin-top: -80px; }
+
+.textLogo ul li {
+  list-style: none;
+  float: left;
+  width: 79px;
+  height: 40px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  color: #999; }
+
+.textLogo ul li:hover {
+  background: #ccc; }
+
+.textLogo ul li a {
+  text-decoration: none;
+  color: #999; }
+
+.sousuo {
+  width: 237px;
+  height: 70px;
+  float: right;
+  margin-top: -95px; }
+
+.sou {
+  width: 180px;
+  height: 50px;
+  margin-top: 20px; }
+
+.suo {
+  width: 144px;
+  height: 27px;
+  border: none;
+  border-bottom: 1px solid #000; }
+
+.re {
+  width: 180px;
+  height: 23px;
+  color: #999;
+  font-size: 12px;
+  margin-top: -20px; }
+
+.re a {
+  text-decoration: none;
+  color: #999; }
+
+.gou {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-top: -50px;
+  margin-right: 30px;
+  cursor: pointer; }
+
+.swiper-container {
+  width: 100%;
+  height: 400px; }
+
+.guanggao {
+  width: 100%;
+  height: 140px;
+  margin-top: 20px; }
+
+.guang {
+  width: 90%;
+  height: 140px;
+  margin: 0 auto; }
+
+.guang li {
+  list-style: none;
+  float: left;
+  margin-left: 3px; }
+
+/*礼品卡卷*/
+.lipin {
+  width: 90%;
+  height: 997px;
+  border-top: 2px solid #999;
+  margin: 50px auto 0; }
+
+.lipinTop {
+  width: 100%;
+  height: 67px; }
+
+.lipinTop span {
+  font-size: 30px;
+  color: #999;
+  line-height: 67px; }
+
+.lipinTop a {
+  float: right;
+  text-decoration: none;
+  color: #000;
+  line-height: 67px; }
+
+.lipinkajuan {
+  width: 100%;
+  height: 930px; }
+
+.jieshao p {
+  margin-top: 5px;
+  text-align: center; }
+
+.jieshao p:last-child {
+  color: #999; }
+
+.lipinkajuan ul li {
+  list-style: none;
+  float: left;
+  width: 239px;
+  height: 309px;
+  overflow: hidden; }
+
+.tu {
+  display: block;
+  width: 220px;
+  height: 220px;
+  margin-left: 19px;
+  margin-top: 37px;
+  transition: 0.3s; }
+
+.tu:hover {
+  cursor: pointer;
+  transform: scale(1.05, 1.05); }
+
+/*家庭量贩*/
+.family {
+  width: 90%;
+  height: 687px;
+  margin: 50px auto 0;
+  border-top: 2px solid #999; }
+
+.familyTop span {
+  font-size: 30px;
+  color: #999;
+  line-height: 67px; }
+
+.familyTop a {
+  float: right;
+  text-decoration: none;
+  color: #000;
+  line-height: 67px; }
+
+.familytu {
+  width: 100%;
+  height: 620px; }
+
+.familytu ul li {
+  list-style: none;
+  float: left; }
+
+/*全球鲜果*/
+.xianguo {
+  width: 90%;
+  height: 687px;
+  margin: 50px auto 0;
+  border-top: 2px solid #999; }
+
+.xianguoTop span {
+  font-size: 30px;
+  color: #999;
+  line-height: 67px; }
+
+.xianguoTop a {
+  float: right;
+  text-decoration: none;
+  color: #000;
+  line-height: 67px; }
+
+.xianguotu {
+  width: 100%;
+  height: 620px; }
+
+.xianguotu ul li {
+  list-style: none;
+  float: left; }
+
+/*生鲜*/
+.shengxian {
+  width: 90%;
+  height: 997px;
+  border-top: 2px solid #999;
+  margin: 50px auto 0; }
+
+.shengxianTop {
+  width: 100%;
+  height: 67px; }
+
+.shengxianTop span {
+  font-size: 30px;
+  color: #999;
+  line-height: 67px; }
+
+.shengxianTop a {
+  float: right;
+  text-decoration: none;
+  color: #000;
+  line-height: 67px; }
+
+.shengxiantu {
+  width: 100%;
+  height: 930px; }
+
+.shengxiantu ul li {
+  list-style: none;
+  float: left; }
+
+/*底部*/
+.bottom {
+  width: 1214px;
+  height: 419px;
+  margin: 50px auto 0; }
+
+.bottomTu {
+  width: 1214px;
+  height: 70px;
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; }
+
+.bottomTu li {
+  list-style: none;
+  float: left;
+  width: 300px;
+  height: 60px;
+  margin-left: 2px;
+  margin-top: 3px;
+  border-right: 1px solid #ccc; }
+
+.bottomZong {
+  width: 100%;
+  height: 201px;
+  border-bottom: 1px solid #999;
+  position: relative; }
+
+/*底部中左*/
+.bottomLeft {
+  width: 315px;
+  height: 100%;
+  position: absolute;
+  left: 40px; }
+
+.bottomLeft img {
+  margin-top: 20px;
+  margin-left: 10px; }
+
+.bottomLeft p {
+  text-align: center;
+  color: orange;
+  font-size: 25px; }
+
+.bottomLeft div {
+  text-align: center;
+  font-size: 19px; }
+
+.bottomLeft .bottomkefu span:first-child {
+  color: #999; }
+
+.bottomLeft .bottomphone span:first-child {
+  color: #999; }
+
+/*底部中中*/
+.bottommiddle {
+  width: 350px;
+  height: 100%;
+  position: absolute;
+  left: 395px; }
+
+.bottommiddle ul li {
+  float: left;
+  list-style: none;
+  width: 130px;
+  height: 100%;
+  margin-top: 30px;
+  margin-left: 40px;
+  text-align: center; }
+
+/*底部中右*/
+.bottomRight {
+  width: 402px;
+  height: 100%;
+  position: absolute;
+  right: 0; }
+
+.bottomRight ul li {
+  list-style: none;
+  float: left;
+  text-align: center;
+  width: 90px;
+  height: 100%;
+  margin-left: 9px;
+  margin-top: 20px; }
+
+.bottomRight ul li p {
+  color: #000; }
+
+.bottomRight ul li a {
+  text-decoration: none;
+  color: #999; }
+
+.bottomRight ul li span {
+  display: block;
+  margin-top: 16px;
+  font-size: 10px; }
+
+/*最底部*/
+.bottomend {
+  width: 100%;
+  height: 97px;
+  position: relative;
+  top: 218px; }
+
+.bottomend p {
+  text-align: center;
+  margin-top: 5px;
+  color: #999; }
+
+.bottomend p:nth-child(2) {
+  color: green; }
+
+.endend img {
+  width: 42px;
+  height: 42px; }
+
+.endend {
+  margin-left: 560px; }
+
+.dingwei img {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  cursor: pointer; }
+
+.dizhi {
+  text-decoration: none;
+  color: #999; }
